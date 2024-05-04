@@ -1,0 +1,113 @@
+body{
+  background-color: transparent;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1{
+  color: #FFFCFC;
+  padding-top: 1.5rem;
+  margin: 0;
+}
+
+h5{
+  margin-top: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+span{
+  color: #111111;
+  font-weight: bold;
+}
+
+.top-container{
+  background-image: url('images/pattern-bg-mobile.png');
+}
+
+.bottom-container{
+  background-color: palegreen;
+  height: 452px;
+  position: relative;
+  z-index: 0;
+}
+
+input{
+  color: hsl(0, 0%, 17%);
+  width: 60%;
+  height: 2.55rem;
+  border-style: none;
+  border-radius: 0.75rem 0rem 0rem 0.75rem;
+  padding: 0.2rem 0.75rem;
+  margin: 1.5rem auto 8rem;
+}
+
+.svg-div{
+  background-color: black;
+  width: 10%;
+  height: 3rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+  position: absolute;
+  top: 5.3rem;
+  left: 18.77rem;
+}
+
+.enter-arr{
+  margin: 14px;
+}
+
+.details{
+  background-color: #FFFCFC;
+  color: hsl(0, 0%, 59%);
+  border-style: none;
+  border-radius: 0.75rem;
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 9.7rem;
+  left: 0rem;
+  right: 0rem;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (min-width: 600px) {
+  
+  h5{
+    margin: 0;
+  }
+  
+.top-container{
+  background-image: url('images/pattern-bg-desktop.png');
+}
+
+input{
+  width: 41%;
+}
+
+.svg-div{
+  width: 5%;
+  left: 43.8rem;
+}
+
+.details{
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  top: 13rem;
+}
+  
+}
